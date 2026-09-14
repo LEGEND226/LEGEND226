@@ -3,8 +3,8 @@
   "terminals": [
     {
       "name": "web",
-      "command": "python3 -m http.server 8000",
-      "description": "Serves the static personal website at http://localhost:8000"
+      "command": "python3 .cursor/serve.py",
+      "description": "Serves the static personal website at http://localhost:8000 with a UTF-8 charset header"
     }
   ],
   "ports": [
